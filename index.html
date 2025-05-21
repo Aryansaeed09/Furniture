@@ -5,322 +5,358 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Furniture</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Remix Icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <!-- main menu style START -->
-  <div class="container">
-    <nav>
-      <div class="logo">
-        Edgecut
-      </div>
-      <div class="main-menu">
-        <ul>
-          <li>
-            <a href="#">Home</a>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Edgecut</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
           </li>
-          <li>
-            <a href="#">About</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
           </li>
-          <li>
-            <a href="#">Furnitures</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Furnitures</a>
           </li>
-          <li>
-            <a href="#">Blog</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
           </li>
-          <li>
-            <a href="#">Contact us</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
           </li>
         </ul>
-      </div>
-      <div class="menu-icons">
-        <a href="#">Login</a>
-        <i class="ri-user-3-fill"></i>
-        <i class="ri-search-line"></i>
-      </div>
-    </nav>
-  </div>
-  <!-- main menu style END -->
-
-
-
-  <!-- Hero section START -->
-  <section id="hero">
-    <div class="container">
-      <div class="hero-parent">
-        <div class="hero-left">
-          <h1>For All Your<br>
-            Furniture Needs</h1>
-          <p class="hero-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Minus quidem
-            maiores perspiciatis, illo maxime<br> voluptatem a itaque suscipit.</p>
-
-          <div>
-            <a class="btn btn-orange" href="#">Contact Us</a>
-            <a class="btn" href="#">About Us</a>
-          </div>
-        </div>
-        <div class="hero-right">
-          <img class="image-full" src="./images/slider-img.png">
+        <div class="d-flex align-items-center">
+          <a href="#" class="text-decoration-none me-3">Login</a>
+          <i class="ri-user-3-fill me-3"></i>
+          <i class="ri-search-line"></i>
         </div>
       </div>
     </div>
-  </section>
-  <!-- Hero section END -->
+  </nav>
 
-
-  <!-- Furniture section sTART -->
-
-  <section id="furniture">
+  <!-- Hero Section -->
+  <section id="hero" class="py-5">
     <div class="container">
-      <h2 class="furniture">Our Furniture</h2>
-      <p>which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
-        be sure there isn't an</p>
-      <div class="cards-parent">
-        <div class="product-card">
-          <img class="card-image image-full" src="./images/f1.png">
-          <h4 class="card-heading">Brown Chair Design</h4>
-          <div class="card-info">
-            <p class="price">
-
-              $540</p>
-            <a href="#" class="link">Buy Now</a>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h1 class="display-4 fw-bold mb-4">For All Your<br>Furniture Needs</h1>
+          <p class="lead mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-primary px-4 py-2">Contact Us</a>
+            <a href="#" class="btn btn-outline-secondary px-4 py-2">About Us</a>
           </div>
         </div>
-        <div class="product-card">
-          <img class="card-image image-full" src="./images/f2.png">
-          <h4 class="card-heading">Double Bed Design</h4>
-          <div class="card-info">
-            <p class="price">$540</p>
-            <a href="#" class="link">Buy Now</a>
-          </div>
-        </div>
-        <div class="product-card">
-          <img class="card-image image-full" src="./images/f3.png">
-          <h4 class="card-heading">House Chair Design</h4>
-          <div class="card-info">
-            <p class="price">$540</p>
-            <a href="#" class="link">Buy Now</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="cards-parent">
-        <div class="product-card">
-          <img class="card-image image-full" src="./images/f6.png">
-          <h4 class="card-heading">Brown Table Design</h4>
-          <div class="card-info">
-            <p class="price">$540</p>
-            <a href="#" class="link">Buy Now</a>
-          </div>
-        </div>
-        <div class="product-card">
-          <img class="card-image image-full" src="./images/f5.png">
-          <h4 class="card-heading">Blue Chair Design</h4>
-          <div class="card-info">
-            <p class="price">$540</p>
-            <a href="#" class="link">Buy Now</a>
-          </div>
-        </div>
-        <div class="product-card">
-          <img class="card-image image-full" src="./images/f6.png">
-          <h4 class="card-heading">Brown Table Design</h4>
-          <div class="card-info">
-            <p class="price">$540</p>
-            <a href="#" class="link">Buy Now</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Funiture section END-->
-
-
-  <!-- about section START -->
-  <section id="about">
-    <div class="container">
-      <div class="hero-parent">
-        <div class="hero-left">
-
-          <img class="image-full" src="./images/about-img.png">
-
-        </div>
-        <div class="hero-right">
-          <h2 class="about-heading">About Us</h2>
-          <p class="hero-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> Minus quidem
-            maiores perspiciatis, illo maxime<br> voluptatem a itaque suscipit.</p>
-
-          <div>
-            <a class="btn" href="#">Read more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- about section END -->
-
-
-  <!-- Blogs section START -->
-  <section id="blogs">
-    <div class="container">
-      <h2 class="section-heading">Latest Blog</h2>
-      <div class="blogs-parent">
-        <div class="blog-post">
-          <img src="./images/b1.jpg">
-          <div class="post-content">
-            <h4 class="post-heading">Look even slightly believable. If you are</h4>
-            <p>alteration in some form, by injected humour, or randomised words which don't look even slightly
-              believable.</p>
-            <a class="btn" href="#">Read more</a>
-          </div>
-        </div>
-        <div class="blog-post">
-          <img src="./images/b2.jpg">
-          <div class="post-content">
-            <h4 class="post-heading">Anything embarrassing hidden in the middle</h4>
-            <p>alteration in some form, by injected humour, or randomised words which don't look even slightly
-              believable.</p>
-            <a class="btn" href="#">Read more</a>
-          </div>
-        </div>
-        <div class="blog-post">
-          <img src="./images/b3.jpg">
-          <div class="post-content">
-            <h4 class="post-heading">Molestias magni natus dolores odio commodi. Quaerat!</h4>
-            <p>alteration in some form, by injected humour, or randomised words which don't look even slightly
-              believable.</p>
-            <a class="btn" href="#">Read more</a>
-          </div>
+        <div class="col-lg-6">
+          <img src="./images/slider-img.png" alt="Furniture" class="img-fluid">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Blogs section END -->
-
-
-
-  <!-- Testimonials section START -->
-  <section id="testimonials">
+  <!-- Furniture Section -->
+  <section id="furniture" class="py-5 bg-light">
     <div class="container">
-      <h2 class="section-heading">Testimonials</h2>
-      <div class="testimonials">
-        <div class="testimonial">
-          <div class="test-left">
-            <img class="client-img" src="./images/client.jpg">
-          </div>
-          <div class="test-right">
-            <p class="quotesicon"><i class="ri-double-quotes-l"></i></p>
-            <h5 class="test-heading">Siaalya nicle</h5>
-            <p>It is a long established fact that a reader will be distracted by the readable cIt is a long established
-              fact that a reader will be distracted by the readable c</p>
-          </div>
-        </div>
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Our Furniture</h2>
+        <p class="text-muted">which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't an</p>
       </div>
-    </div>
-  </section>
-
-  <!-- Testimonials section END -->
-
-
-  <!-- Form section START -->
-  <section id="form">
-    <div class="container">
-      <div class="form">
-        <div class="form-parent">
-          <form action="">
-            <h2 class="form-headig">Contact Us</h2>
-            <div> <input type="text" id="Name" placeholder="Name"> </div>
-            <div> <input type="text" id="Phone Number" placeholder="Phone Number"></div>
-            <div> <input type="text" id="Email" placeholder="Email"></div>
-            <div><input class="input" id="Massage" placeholder="Message"></input></div>
-            <div>
-              <a class="btn formbotton" href="#">SEND</a>
+      
+      <div class="row g-4 mb-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/f1.png" class="card-img-top p-4" alt="Brown Chair">
+            <div class="card-body text-center">
+              <h5 class="card-title">Brown Chair Design</h5>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fw-bold text-primary">$540</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
             </div>
-          </form>
+          </div>
         </div>
-        <div class="map"> <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55543.29749013708!2d71.5872348562373!3d29.53220922880445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9ee4e335c893%3A0x3cfb6dc1093330a9!2sLodhr%C4%81n%2C%20Lodhran%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1733900713907!5m2!1sen!2s"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/f2.png" class="card-img-top p-4" alt="Double Bed">
+            <div class="card-body text-center">
+              <h5 class="card-title">Double Bed Design</h5>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fw-bold text-primary">$540</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/f3.png" class="card-img-top p-4" alt="House Chair">
+            <div class="card-body text-center">
+              <h5 class="card-title">House Chair Design</h5>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fw-bold text-primary">$540</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
+      
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/f6.png" class="card-img-top p-4" alt="Brown Table">
+            <div class="card-body text-center">
+              <h5 class="card-title">Brown Table Design</h5>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fw-bold text-primary">$540</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/f5.png" class="card-img-top p-4" alt="Blue Chair">
+            <div class="card-body text-center">
+              <h5 class="card-title">Blue Chair Design</h5>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fw-bold text-primary">$540</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/f6.png" class="card-img-top p-4" alt="Brown Table">
+            <div class="card-body text-center">
+              <h5 class="card-title">Brown Table Design</h5>
+              <div class="d-flex justify-content-between align-items-center mt-3">
+                <span class="fw-bold text-primary">$540</span>
+                <a href="#" class="btn btn-sm btn-outline-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Form section END -->
-
-
-  <!-- Footer section START -->
-  <footer id="footer">
+  <!-- About Section -->
+  <section id="about" class="py-5">
     <div class="container">
-      <div class="top-icon">
-        <div>
-          <i class="ri-phone-fill"></i>
-          <p>+923456789</p>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <img src="./images/about-img.png" alt="About Us" class="img-fluid">
         </div>
-        <div>
-          <i class="ri-mail-fill"></i>
-          <p>demo@gmail.com</p>
-        </div>
-        <div>
-          <i class="ri-map-pin-fill"></i>
-          <p>location</p>
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-4">About Us</h2>
+          <p class="lead mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime voluptatem a itaque suscipit.</p>
+          <a href="#" class="btn btn-outline-primary px-4 py-2">Read more</a>
         </div>
       </div>
-      <div class="bottom-icon">
-        <div class="footer-left">
-          <h4>QUICK LINKS</h4>
-          <div class="footer-links">
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Furnitures</a>
-              </li>
-              <li>
-                <a href="#">Blog</a>
-              </li>
-              <li>
-                <a href="#">Contact us</a>
-              </li>
-            </ul>
+    </div>
+  </section>
+
+  <!-- Blogs Section -->
+  <section id="blogs" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Latest Blog</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/b1.jpg" class="card-img-top" alt="Blog Post">
+            <div class="card-body">
+              <h5 class="card-title">Look even slightly believable. If you are</h5>
+              <p class="card-text">alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+              <a href="#" class="btn btn-outline-primary">Read more</a>
+            </div>
           </div>
         </div>
-        <div class="footer-mid">
-
-          <div class="imges">
-
-
-            <div class="img"><img class="image-full" src="./images/f1.png" alt=""></div>
-            <div class="img"><img class="image-full" src="./images/f2.png" alt=""></div>
-            <div class="img"><img class="image-full" src="./images/f3.png" alt=""></div>
-            <div class="img"><img class="image-full" src="./images/f4.png" alt=""></div>
-            <div class="img"><img class="image-full" src="./images/f5.png" alt=""></div>
-            <div class="img"><img class="image-full" src="./images/f6.png" alt=""></div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/b2.jpg" class="card-img-top" alt="Blog Post">
+            <div class="card-body">
+              <h5 class="card-title">Anything embarrassing hidden in the middle</h5>
+              <p class="card-text">alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+              <a href="#" class="btn btn-outline-primary">Read more</a>
+            </div>
           </div>
         </div>
-        <div class="footer-right">
-          <h4>SIGN UP TO OUR NEWSLETTER<h4>
-              <form action="">
-                <input type="email" placeholder="Enter Your Email">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="./images/b3.jpg" class="card-img-top" alt="Blog Post">
+            <div class="card-body">
+              <h5 class="card-title">Molestias magni natus dolores odio commodi. Quaerat!</h5>
+              <p class="card-text">alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+              <a href="#" class="btn btn-outline-primary">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Testimonials</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+              <div class="d-flex flex-column flex-md-row align-items-center">
+                <img src="./images/client.jpg" class="rounded-circle me-md-4 mb-3 mb-md-0" width="120" height="120" alt="Client">
+                <div class="text-center text-md-start">
+                  <i class="ri-double-quotes-l display-4 text-muted opacity-25"></i>
+                  <h5 class="mt-2">Siaalya nicle</h5>
+                  <p class="mb-0">It is a long established fact that a reader will be distracted by the readable cIt is a long established fact that a reader will be distracted by the readable c</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="form" class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card border-0 shadow-sm h-100">
+            <div class="card-body p-4 p-md-5">
+              <h2 class="fw-bold mb-4">Contact Us</h2>
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control py-3" id="Name" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control py-3" id="Phone" placeholder="Phone Number">
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control py-3" id="Email" placeholder="Email">
+                </div>
+                <div class="mb-4">
+                  <textarea class="form-control py-3" id="Message" rows="3" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 py-3">SEND</button>
               </form>
-              <a class="btn" href="#">About Us</a>
-              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="h-100">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55543.29749013708!2d71.5872348562373!3d29.53220922880445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b9ee4e335c893%3A0x3cfb6dc1093330a9!2sLodhr%C4%81n%2C%20Lodhran%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1733900713907!5m2!1sen!2s" class="w-100 h-100" style="min-height: 400px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
       </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4 mb-5">
+        <div class="col-md-4 text-center text-md-start">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-start mb-3">
+            <i class="ri-phone-fill me-3"></i>
+            <span>+923456789</span>
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="d-flex align-items-center justify-content-center mb-3">
+            <i class="ri-mail-fill me-3"></i>
+            <span>demo@gmail.com</span>
+          </div>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <div class="d-flex align-items-center justify-content-center justify-content-md-end mb-3">
+            <i class="ri-map-pin-fill me-3"></i>
+            <span>location</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row g-4">
+        <div class="col-lg-3 col-md-6">
+          <h5 class="mb-4">QUICK LINKS</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Home</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">About</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Furnitures</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Blog</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Contact us</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-6 col-md-12">
+          <h5 class="mb-4">OUR PRODUCTS</h5>
+          <div class="row g-2">
+            <div class="col-4 col-sm-2">
+              <img src="./images/f1.png" class="img-fluid bg-white p-2" alt="Furniture">
+            </div>
+            <div class="col-4 col-sm-2">
+              <img src="./images/f2.png" class="img-fluid bg-white p-2" alt="Furniture">
+            </div>
+            <div class="col-4 col-sm-2">
+              <img src="./images/f3.png" class="img-fluid bg-white p-2" alt="Furniture">
+            </div>
+            <div class="col-4 col-sm-2">
+              <img src="./images/f4.png" class="img-fluid bg-white p-2" alt="Furniture">
+            </div>
+            <div class="col-4 col-sm-2">
+              <img src="./images/f5.png" class="img-fluid bg-white p-2" alt="Furniture">
+            </div>
+            <div class="col-4 col-sm-2">
+              <img src="./images/f6.png" class="img-fluid bg-white p-2" alt="Furniture">
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <h5 class="mb-4">SIGN UP TO OUR NEWSLETTER</h5>
+          <form class="mb-3">
+            <input type="email" class="form-control mb-3" placeholder="Enter Your Email">
+            <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+          </form>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white"><i class="ri-facebook-fill"></i></a>
+            <a href="#" class="text-white"><i class="ri-twitter-fill"></i></a>
+            <a href="#" class="text-white"><i class="ri-instagram-fill"></i></a>
+            <a href="#" class="text-white"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <hr class="my-5">
+      
+      <div class="text-center">
+        <p class="mb-0">&copy; 2023 Edgecut. All Rights Reserved.</p>
+      </div>
     </div>
   </footer>
 
-  <!-- Footer section END -->
+  <!-- Bootstrap 5 JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
